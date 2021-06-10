@@ -1,9 +1,8 @@
 setlocal
 
 SET BUILD=pybuild
-SET PY_VERSION=27
-SET ARCH=64
-SET COMPILER=Visual Studio 15 2017
+SET PY_VERSION=3.8.8 
+SET COMPILER=Visual Studio 16 2019
 
 SET PFX=%~dp0
 cd %PFX%
